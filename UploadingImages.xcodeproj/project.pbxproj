@@ -13,6 +13,10 @@
 		2A2172732CF1CC1B008C4604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2172712CF1CC1B008C4604 /* Main.storyboard */; };
 		2A2172752CF1CC20008C4604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2172742CF1CC20008C4604 /* Assets.xcassets */; };
 		2A2172782CF1CC20008C4604 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2172762CF1CC20008C4604 /* LaunchScreen.storyboard */; };
+		2A2172802CF1CDAF008C4604 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A21727F2CF1CDAF008C4604 /* ImageModel.swift */; };
+		2A2172822CF1CF30008C4604 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2172812CF1CF30008C4604 /* ImageViewModel.swift */; };
+		2A2172862CF6EA94008C4604 /* UploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2172852CF6EA94008C4604 /* UploadImage.swift */; };
+		2A2172882CF72A23008C4604 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2172872CF72A23008C4604 /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2A2172742CF1CC20008C4604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A2172772CF1CC20008C4604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A2172792CF1CC20008C4604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A21727F2CF1CDAF008C4604 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		2A2172812CF1CF30008C4604 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		2A2172852CF6EA94008C4604 /* UploadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImage.swift; sourceTree = "<group>"; };
+		2A2172872CF72A23008C4604 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				2A2172742CF1CC20008C4604 /* Assets.xcassets */,
 				2A2172762CF1CC20008C4604 /* LaunchScreen.storyboard */,
 				2A2172792CF1CC20008C4604 /* Info.plist */,
+				2A21727F2CF1CDAF008C4604 /* ImageModel.swift */,
+				2A2172812CF1CF30008C4604 /* ImageViewModel.swift */,
+				2A2172852CF6EA94008C4604 /* UploadImage.swift */,
+				2A2172872CF72A23008C4604 /* ImageCell.swift */,
 			);
 			path = UploadingImages;
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A2172702CF1CC1B008C4604 /* ViewController.swift in Sources */,
+				2A2172822CF1CF30008C4604 /* ImageViewModel.swift in Sources */,
+				2A2172802CF1CDAF008C4604 /* ImageModel.swift in Sources */,
 				2A21726C2CF1CC1B008C4604 /* AppDelegate.swift in Sources */,
+				2A2172862CF6EA94008C4604 /* UploadImage.swift in Sources */,
+				2A2172882CF72A23008C4604 /* ImageCell.swift in Sources */,
 				2A21726E2CF1CC1B008C4604 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
